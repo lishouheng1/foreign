@@ -296,9 +296,9 @@ td{
 }
 .buttonface02{
 	font-family:"Tahoma";
-	FONT-SIZE: 30px;
+	FONT-SIZE: 18px;
 	color:#000000;
-	HEIGHT: 50px;
+	HEIGHT: 28px;
 	background-image: url(../images/bg_20.gif);
 	cursor:hand;
     BORDER-RIGHT: 1px solid #122A4C; 

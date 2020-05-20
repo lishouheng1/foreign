@@ -148,12 +148,10 @@ public class OpencvOpt {
                 Date t = new Date();
                 SimpleDateFormat df = new SimpleDateFormat("yyyyMMddHHmmss");
                 String fileName = df.format(t);
-                String classpath = System.getProperty("user.dir");
-//                    File f = new File(classpath+"\\webapp\\img\\fails\\"+fileName+".jpg");
 
-                Imgcodecs.imwrite("G:\\mengniu4\\target\\bjmengniu\\img\\fails\\" + fileName + ".jpg", src);
+                Imgcodecs.imwrite("E:\\img\\fails\\" + fileName + ".jpg", src);
 
-                ws.sendMessageAll("../../img/fails/" + fileName + ".jpg");
+                ws.sendMessageAll("\\ttt\\fails\\" + fileName + ".jpg");
                 System.out.println("已发送异常");
 
 
@@ -162,7 +160,7 @@ public class OpencvOpt {
                 e.printStackTrace();
             }
         }
-        Imgcodecs.imwrite("G:\\mengniu4\\target\\bjmengniu\\img\\zhengchang.jpg", src);
+        Imgcodecs.imwrite("E:\\img\\zhengchang.jpg", src);
         try {
             ws.sendMessageAll("success");
             System.out.println("已发送正常");

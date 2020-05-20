@@ -2,6 +2,7 @@ package com.lishouheng.mengniu.controller;
 
 import com.lishouheng.mengniu.bean.Parameter;
 import com.lishouheng.mengniu.bean.SysParam;
+import com.lishouheng.mengniu.constant.SysConstant;
 import com.lishouheng.mengniu.init.AutoRun;
 import com.lishouheng.mengniu.netty.ChineseProverbServer;
 import com.lishouheng.mengniu.netty.ChineseProverbServerHandler;
@@ -45,6 +46,12 @@ public class OptController {
             params.add(new SysParam("width",paramter.getWidth()));
             params.add(new SysParam("length",paramter.getLength()));
             unlistService.updata(params);
+            SysConstant.map.put("ssty",paramter.getSsty());
+            SysConstant.map.put("thred",paramter.getThred());
+            SysConstant.map.put("x",paramter.getX());
+            SysConstant.map.put("y",paramter.getY());
+            SysConstant.map.put("width",paramter.getWidth());
+            SysConstant.map.put("length",paramter.getLength());
         }
         return new HashMap<>();
     }

@@ -4,9 +4,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>异物检测操作平台</title>
-<link href="../../css/style.css" rel="stylesheet" type="text/css">
-<script language="javascript" src="../../js/jquery-3.3.1.min.js"/>
-<script language="javascript" src="../../js/util.js"></script>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="js/jquery-3.3.1.min.js"/>
+<script language="javascript" src="js/util.js"></script>
   <style type="text/css">
     /*右边*/
     .my-box{
@@ -41,7 +41,7 @@
           //提交
           $.ajax({
               type: "post",
-              url: '/updata.do',
+              url: 'updata.do',
               data: model,
               dataType:"json",
               success: function (result) {
@@ -49,6 +49,7 @@
               }
           });
       }
+
   </script>
 </head>
 
@@ -58,9 +59,9 @@
     <tr>
       <td height="25" align="center" valign="bottom" class="td06"><table width="100%"  border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
-          <td width="2%" valign="middle" background="../../images/bg_03.gif">&nbsp;</td>
-          <td width="2%" valign="middle" background="../../images/bg_03.gif"><img src="../../images/main_28.gif" width="9" height="9" align="absmiddle"></td>
-          <td height="30" valign="middle" background="../../images/bg_03.gif"><div align="left"><font color="#FFFFFF">异物检测操作平台</font></div></td>
+          <td width="2%" valign="middle" background="images/bg_03.gif">&nbsp;</td>
+          <td width="2%" valign="middle" background="images/bg_03.gif"><img src="images/main_28.gif" width="9" height="9" align="absmiddle"></td>
+          <td height="30" valign="middle" background="images/bg_03.gif"><div align="left"><font color="#FFFFFF">异物检测操作平台</font></div></td>
         </tr>
       </table></td>
     </tr>
@@ -98,25 +99,29 @@
         <tr>
           <td colspan="9" class="td_02" align="right">
             <input id="save" type="button" class="buttonface02" value="保存" onclick="add()">
+
           </td>
         </tr>
       </table>
+      <div style="margin-top: 50px"></div>
+      <span style="color:green;font-size:40px;margin-left: 40px;">今日已检测:<span id="show">0</span></span>
     </div>
     <div class="my-box-right2">
-      <div id="word" style="margin-top: 30px;"></div>
-      <div id="message" style="margin-top: 30px"></div>
+      <div id="word" style="margin-top: 30px;"><h1 style="color:green;font-size: 80px;">成功！</h1></div>
+      <div id="message" style="margin-top: 30px"><img style="border: 2px #B3CFE8 solid;"  width="600" height="300"  align="absmiddle"/></div>
     </div>
   </div>
 </center>
 </body>
 <script>
+
     var websocket = null;
     var host = document.location.host;
     var username = "zhangsan";
     //判断当前浏览器是否支持WebSocket
     if ('WebSocket' in window) {
         // alert("浏览器支持Websocket")
-        websocket = new WebSocket('ws://'+host+'/webSocket/'+username);
+        websocket = new WebSocket('ws://'+host+'/bjmengniu/webSocket/'+username);
     } else {
         alert('当前浏览器 Not support websocket')
     }
@@ -137,9 +142,10 @@
     websocket.onmessage = function(event) {
         // alert("接收到消息的回调方法")
         // alert("这是后台推送的消息："+event.data);
+        $("#show").html(parseInt($("#show").html())+1);
         if(event.data=='success'){
             $("#word").html('<h1 style="color:green;font-size: 80px;margin-top: 15px;">正常！</h1>');
-            $("#message").html('<img style="border: 2px #B3CFE8 solid;" src="../../img/zhengchang.jpg" width="600" height="300"  align="absmiddle">');
+            $("#message").html('<img style="border: 2px #B3CFE8 solid;" src="/ttt/zhengchang.jpg" width="600" height="300"  align="absmiddle">');
         }else if(event.data!='success'){
             $("#word").html('<h1 style="color:red;font-size: 80px;margin-top: 15px;">异常！</h1>');
             $("#message").html('<img style="border: 2px #B3CFE8 solid;" src='+event.data+' width="600" height="300"  align="absmiddle">');

@@ -23,8 +23,6 @@ import java.util.List;
 public class ChineseProverbServerHandler extends SimpleChannelInboundHandler<DatagramPacket>
 {
     VideoCapture capture =new VideoCapture(1);
-    {capture.open(1);
-   }
 
     Parameter p=new Parameter(120,10,50,50,400,400);
     StopWatch sw =new StopWatch("OpencvOpt");
@@ -44,6 +42,7 @@ public class ChineseProverbServerHandler extends SimpleChannelInboundHandler<Dat
     InetAddress address;
 
     {
+        capture.open(1);
         try {
             ds=new DatagramSocket();
             address = InetAddress.getByName("192.168.1.50");
@@ -75,16 +74,12 @@ public class ChineseProverbServerHandler extends SimpleChannelInboundHandler<Dat
         String str = btr.substring(21, 22);
         System.out.println(str);
         if("3".equals(str)&&!"B".equals(next)){
-sw.start("OpencvOpt.OpencvOpt");
-            if (OpencvOpt.OpencvOpt(p,capture,dst,src1,src)){
+            if (OpencvOpt.OpencvOpt(capture,dst,src1,src)){
                 // 回复一条信息给客户端
                 ds.send(dp1);
-                sw.stop();
                 System.out.println(sw.prettyPrint());
             }else {
-
                 System.out.println("正常");
-                sw.stop();
                 System.out.println(sw.prettyPrint());
             }
 

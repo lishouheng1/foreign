@@ -30,7 +30,7 @@ public class AutoRun{
     @PostConstruct
     public void init() {
         List<SysParam> sysParams = unlistService.selectParameter();
-        if(CollectionUtils.isEmpty(sysParams)){
+        if(!CollectionUtils.isEmpty(sysParams)){
             for(SysParam sysParam:sysParams){
                 SysConstant.map.put(sysParam.getK(),sysParam.getV());
             }

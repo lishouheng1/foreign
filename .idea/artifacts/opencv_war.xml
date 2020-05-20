@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="opencv:war">
+    <output-path>E:/ideaProjects/opencv/target</output-path>
+    <root id="archive" name="bjmengniu.war">
+      <element id="artifact" artifact-name="opencv:war exploded" />
+    </root>
+  </artifact>
+</component>

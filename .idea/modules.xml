@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mengniu4.iml" filepath="$PROJECT_DIR$/mengniu4.iml" />
+      <module fileurl="file://E:/ideaProjects/opencv/opencv.iml" filepath="E:/ideaProjects/opencv/opencv.iml" />
+    </modules>
+  </component>
+</project>

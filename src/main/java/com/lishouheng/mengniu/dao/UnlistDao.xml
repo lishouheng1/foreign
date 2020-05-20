@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lishouheng.mengniu.dao.UnlistDao">
+    <resultMap id="parameter" type="com.lishouheng.mengniu.bean.SysParam">
+        <id column="id" property="id"/>
+        <result column="k" property="key"/>
+        <result column="v" property="value"/>
+    </resultMap>
+    <select id="selectParameter" resultMap="parameter">
+        SELECT * FROM optparameter
+    </select>
+    <update id="updata" parameterType="com.lishouheng.mengniu.bean.SysParam">
+        UPDATE optparameter
+        SET k=#{key},v=#{value}
+        WHERE id=#{id}
+    </update>
+
+</mapper>

@@ -104,7 +104,7 @@
         </tr>
       </table>
       <div style="margin-top: 50px"></div>
-      <span style="color:green;font-size:40px;margin-left: 40px;">今日已检测:<span id="show">0</span></span>
+      <span style="color:green;font-size:40px;margin-left: 40px;">已检测:<span id="show">0</span></span>
     </div>
     <div class="my-box-right2">
       <div id="word" style="margin-top: 30px;"><h1 style="color:green;font-size: 80px;">成功！</h1></div>

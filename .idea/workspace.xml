@@ -6,111 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="407ecd5e-947d-4118-b6a6-1f6b3c1fce0f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/fails/test.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/test.png" />
+    <list default="true" id="407ecd5e-947d-4118-b6a6-1f6b3c1fce0f" name="Default" comment="123">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/controller/OptController.java" afterPath="$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/controller/OptController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/init/AutoRun.java" afterPath="$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/init/AutoRun.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/netty/ChineseProverbServerHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/netty/ChineseProverbServerHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/opencv/OpencvOpt.java" afterPath="$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/opencv/OpencvOpt.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/html/news/opt.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/html/news/opt.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/bjmengniu/META-INF/MANIFEST.MF" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/WEB-INF/classes/com/lishouheng/mengniu/controller/OptController.class" afterPath="$PROJECT_DIR$/target/bjmengniu/WEB-INF/classes/com/lishouheng/mengniu/controller/OptController.class" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/WEB-INF/classes/com/lishouheng/mengniu/init/AutoRun.class" afterPath="$PROJECT_DIR$/target/bjmengniu/WEB-INF/classes/com/lishouheng/mengniu/init/AutoRun.class" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/WEB-INF/classes/com/lishouheng/mengniu/netty/ChineseProverbServerHandler.class" afterPath="$PROJECT_DIR$/target/bjmengniu/WEB-INF/classes/com/lishouheng/mengniu/netty/ChineseProverbServerHandler.class" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/WEB-INF/classes/com/lishouheng/mengniu/opencv/OpencvOpt.class" afterPath="$PROJECT_DIR$/target/bjmengniu/WEB-INF/classes/com/lishouheng/mengniu/opencv/OpencvOpt.class" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/css/style.css" afterPath="$PROJECT_DIR$/target/bjmengniu/css/style.css" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/html/news/opt.jsp" afterPath="$PROJECT_DIR$/target/bjmengniu/html/news/opt.jsp" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519050536.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519050544.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519050551.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519050615.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519050622.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519050627.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519050631.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519050637.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519050648.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519051148.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519051154.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519051159.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519051210.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519051609.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519051735.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519051929.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519052125.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519052220.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519052259.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519052349.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519052455.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519053353.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519053543.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519053755.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519053900.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519053933.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519091641.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519091934.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092037.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092045.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092056.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092104.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092124.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092131.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092153.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092204.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092600.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092622.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092926.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519092956.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519093400.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095021.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095033.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095040.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095059.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095130.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095135.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095352.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095439.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095445.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095452.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095458.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095500.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095512.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095520.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095526.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095541.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095615.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519095841.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519100148.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519100937.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519103325.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519103338.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519103349.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519103359.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519103417.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519103431.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519213602.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519213610.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519213632.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519214025.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519214040.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519214419.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200519214809.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520001035.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520001046.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520001242.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520001655.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520002044.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520002051.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520002056.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520002100.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520002952.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/fails/20200520003133.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/bjmengniu/img/zhengchang.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lishouheng/mengniu/controller/OptController.class" afterPath="$PROJECT_DIR$/target/classes/com/lishouheng/mengniu/controller/OptController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lishouheng/mengniu/init/AutoRun.class" afterPath="$PROJECT_DIR$/target/classes/com/lishouheng/mengniu/init/AutoRun.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lishouheng/mengniu/netty/ChineseProverbServerHandler.class" afterPath="$PROJECT_DIR$/target/classes/com/lishouheng/mengniu/netty/ChineseProverbServerHandler.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,8 +23,8 @@
       <file leaf-file-name="opt.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/html/news/opt.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="147" column="53" lean-forward="false" selection-start-line="147" selection-start-column="53" selection-end-line="147" selection-end-column="53" />
+            <state relative-caret-position="200">
+              <caret line="106" column="66" lean-forward="false" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -134,10 +32,10 @@
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1589994784684" expanded="true" signature="5566:5611" ph="..." />
-                <marker date="1589994784684" expanded="true" signature="5669:5695" ph="..." />
-                <marker date="1589994784684" expanded="true" signature="5852:5895" ph="..." />
-                <marker date="1589994784684" expanded="true" signature="5953:5979" ph="..." />
+                <marker date="1589996073695" expanded="true" signature="5564:5609" ph="..." />
+                <marker date="1589996073695" expanded="true" signature="5667:5693" ph="..." />
+                <marker date="1589996073695" expanded="true" signature="5850:5893" ph="..." />
+                <marker date="1589996073695" expanded="true" signature="5951:5977" ph="..." />
               </folding>
             </state>
           </provider>
@@ -166,8 +64,8 @@
       <file leaf-file-name="OpencvOpt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/opencv/OpencvOpt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2075">
-              <caret line="159" column="36" lean-forward="false" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
+            <state relative-caret-position="-3350">
+              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="22" />
               <folding>
                 <element signature="e#949#961#0" expanded="true" />
                 <element signature="e#2623#2635#0" expanded="true" />
@@ -817,7 +715,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589978749147</updated>
-      <workItem from="1589978753180" duration="16357000" />
+      <workItem from="1589978753180" duration="17217000" />
     </task>
     <task id="LOCAL-00001" summary="123">
       <created>1589984219556</created>
@@ -826,14 +724,22 @@
       <option name="project" value="LOCAL" />
       <updated>1589984219557</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="123">
+      <created>1589995246350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589995246350</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16357000" />
+    <option name="totallyTimeSpent" value="17217000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -845,7 +751,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5051903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5051903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -856,7 +762,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24961832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1221,6 +1127,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/opencv/OpencvOpt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3350">
+          <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="22" />
+          <folding>
+            <element signature="e#949#961#0" expanded="true" />
+            <element signature="e#2623#2635#0" expanded="true" />
+            <element signature="e#2682#2688#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/init/AutoRun.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
@@ -1237,22 +1155,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lishouheng/mengniu/opencv/OpencvOpt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2075">
-          <caret line="159" column="36" lean-forward="false" selection-start-line="159" selection-start-column="36" selection-end-line="159" selection-end-column="36" />
-          <folding>
-            <element signature="e#949#961#0" expanded="true" />
-            <element signature="e#2623#2635#0" expanded="true" />
-            <element signature="e#2682#2688#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/news/opt.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="147" column="53" lean-forward="false" selection-start-line="147" selection-start-column="53" selection-end-line="147" selection-end-column="53" />
+        <state relative-caret-position="200">
+          <caret line="106" column="66" lean-forward="false" selection-start-line="106" selection-start-column="66" selection-end-line="106" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1260,10 +1166,10 @@
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#1;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1589994784684" expanded="true" signature="5566:5611" ph="..." />
-            <marker date="1589994784684" expanded="true" signature="5669:5695" ph="..." />
-            <marker date="1589994784684" expanded="true" signature="5852:5895" ph="..." />
-            <marker date="1589994784684" expanded="true" signature="5953:5979" ph="..." />
+            <marker date="1589996073695" expanded="true" signature="5564:5609" ph="..." />
+            <marker date="1589996073695" expanded="true" signature="5667:5693" ph="..." />
+            <marker date="1589996073695" expanded="true" signature="5850:5893" ph="..." />
+            <marker date="1589996073695" expanded="true" signature="5951:5977" ph="..." />
           </folding>
         </state>
       </provider>

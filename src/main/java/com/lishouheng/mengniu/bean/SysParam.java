@@ -1,11 +1,20 @@
 package com.lishouheng.mengniu.bean;
 
 public class SysParam {
+
     private Integer id;
 
-    private String key;
+    private String k;
 
-    private Integer value;
+    private Integer v;
+
+    public SysParam() {
+    }
+
+    public SysParam(String k, Integer v) {
+        this.k = k;
+        this.v = v;
+    }
 
     public Integer getId() {
         return id;
@@ -15,19 +24,19 @@ public class SysParam {
         this.id = id;
     }
 
-    public String getKey() {
-        return key;
+    public String getK() {
+        return k;
     }
 
-    public void setKey(String key) {
-        this.key = key;
+    public void setK(String k) {
+        this.k = k;
     }
 
-    public Integer getValue() {
-        return value;
+    public Integer getV() {
+        return v;
     }
 
-    public void setValue(Integer value) {
-        this.value = value;
+    public void setV(Integer v) {
+        this.v = v;
     }
 }

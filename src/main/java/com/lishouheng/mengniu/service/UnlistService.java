@@ -7,5 +7,5 @@ import java.util.Map;
 
 public interface UnlistService {
     List<SysParam> selectParameter();
-    void updata(SysParam sysParam);
+    void updata(List<SysParam> list);
 }

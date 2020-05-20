@@ -6,13 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mengniu4" />
-        <module name="opencv" />
+        <module name="foreign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="mengniu4" target="1.8" />
-      <module name="opencv" target="1.8" />
+      <module name="foreign" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

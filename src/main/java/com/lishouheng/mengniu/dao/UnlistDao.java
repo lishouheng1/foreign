@@ -8,5 +8,6 @@ import java.util.Map;
 @Mapper
 public interface UnlistDao {
     List<SysParam> selectParameter();
-    void updata(SysParam sysParam);
+    void deleteAll();
+    void insertForeach(List<SysParam> list);
 }

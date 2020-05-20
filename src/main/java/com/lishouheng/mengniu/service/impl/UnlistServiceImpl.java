@@ -11,7 +11,6 @@ import java.util.List;
 import java.util.Map;
 
 @Service
-@Transactional
 public class UnlistServiceImpl implements UnlistService {
     /**
      * 查询一级栏目
@@ -25,8 +24,12 @@ public class UnlistServiceImpl implements UnlistService {
     }
 
     @Override
-    public void updata(SysParam sysParam) {
-        unlistDao.updata(sysParam);
+    @Transactional
+    public void updata(List<SysParam> list) {
+        unlistDao.deleteAll();
+        unlistDao.insertForeach(list);
     }
+
+
 }
 

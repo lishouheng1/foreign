@@ -9,11 +9,15 @@ import com.lishouheng.mengniu.service.UnlistService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author jiabao.chen
@@ -30,43 +34,18 @@ public class OptController {
         return "/html/news/opt.jsp";
     }
     @RequestMapping(value = "updata",method = RequestMethod.POST)
-    public String updata(Parameter paramter,Model mv){
-//        AutoRun.parameter=paramter;
-        System.out.println(paramter);
+    @ResponseBody
+    public Object updata( Parameter paramter){
         List<SysParam> params =new ArrayList<>();
-        SysParam sysParam=new SysParam();
-        sysParam.setId(1);
-        sysParam.setKey("ssty");
-        sysParam.setValue(paramter.getSsty());
-        System.out.println(sysParam.toString());
-        params.add(sysParam);
-        unlistService.updata(sysParam);
-        sysParam.setId(2);
-        sysParam.setKey("thred");
-        sysParam.setValue(paramter.getThred());
-        params.add(sysParam);
-        unlistService.updata(sysParam);
-        sysParam.setId(3);
-        sysParam.setKey("x");
-        sysParam.setValue(paramter.getX());
-        params.add(sysParam);
-        unlistService.updata(sysParam);
-        sysParam.setId(4);
-        sysParam.setKey("y");
-        sysParam.setValue(paramter.getY());
-        params.add(sysParam);
-        unlistService.updata(sysParam);
-        sysParam.setId(5);
-        sysParam.setKey("width");
-        sysParam.setValue(paramter.getWidth());
-        unlistService.updata(sysParam);
-        sysParam.setId(6);
-        sysParam.setKey("length");
-        sysParam.setValue(paramter.getLength());
-        params.add(sysParam);
-        unlistService.updata(sysParam);
-        System.out.println(params);
-        mv.addAttribute("parameter",params);
-        return "/html/news/opt.jsp";
+        if(null!=paramter){
+            params.add(new SysParam("ssty",paramter.getSsty()));
+            params.add(new SysParam("thred",paramter.getThred()));
+            params.add(new SysParam("x",paramter.getX()));
+            params.add(new SysParam("y",paramter.getY()));
+            params.add(new SysParam("width",paramter.getWidth()));
+            params.add(new SysParam("length",paramter.getLength()));
+            unlistService.updata(params);
+        }
+        return new HashMap<>();
     }
 }

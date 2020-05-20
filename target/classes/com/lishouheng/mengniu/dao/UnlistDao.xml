@@ -5,16 +5,24 @@
 <mapper namespace="com.lishouheng.mengniu.dao.UnlistDao">
     <resultMap id="parameter" type="com.lishouheng.mengniu.bean.SysParam">
         <id column="id" property="id"/>
-        <result column="k" property="key"/>
-        <result column="v" property="value"/>
+        <result column="k" property="k"/>
+        <result column="v" property="v"/>
     </resultMap>
     <select id="selectParameter" resultMap="parameter">
-        SELECT * FROM optparameter
+        SELECT * FROM optparameter;
     </select>
-    <update id="updata" parameterType="com.lishouheng.mengniu.bean.SysParam">
-        UPDATE optparameter
-        SET k=#{key},v=#{value}
-        WHERE id=#{id}
-    </update>
+    <delete id="deleteAll" >
+        DELETE from optparameter;
+    </delete>
+    <insert id="insertForeach" parameterType="java.util.List" useGeneratedKeys="false">
+        insert into optparameter
+        ( k,v)
+        values
+        <foreach collection="list" item="item" index="index" separator=",">
+            (
+            #{item.k},
+            #{item.v})
+        </foreach>
+    </insert>
 
 </mapper>

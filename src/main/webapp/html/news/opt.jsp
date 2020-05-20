@@ -29,6 +29,27 @@
       overflow-y: hidden;
     }
   </style>
+  <script>
+      function add() {
+          var model = new Object();
+          model.ssty = $('#ssty').val();
+          model.thred = $('#thred').val();
+          model.x = $('#x').val();
+          model.y = $('#y').val();
+          model.width = $('#width').val();
+          model.length = $('#length').val();
+          //提交
+          $.ajax({
+              type: "post",
+              url: '/updata.do',
+              data: model,
+              dataType:"json",
+              success: function (result) {
+                alert("保存成功！");
+              }
+          });
+      }
+  </script>
 </head>
 
 <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
@@ -46,46 +67,44 @@
   </table>
   <div class="my-box">
     <div class="my-box-left2">
-      <form name="form1" method="post" action="/updata.do">
       <table style="margin-top: 30px;margin-left: 50px" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="table01">
         <tr>
           <td colspan="9" class="td_02" style="font-size: 20px" align="center">参数设置</td>
         </tr>
         <tr>
           <td width="30%" class="td_02" style="font-size: 14px">分辨率：</td>
-          <td width="70%" class="td_02"><input id="ssty" name="ssty" type="text" value="${parameter.get(0).value}" class="input" style="width:100% "></td>
+          <td width="70%" class="td_02"><input id="ssty" name="ssty" type="text" value="${parameter.get(0).v}" class="input" style="width:100% "></td>
         </tr>
         <tr>
           <td width="30%" class="td_02" style="font-size: 14px">阈值：</td>
-          <td width="70%" class="td_02"><input id="thred" name="thred" type="text" value="${parameter.get(1).value}"class="input" style="width:100% "></td>
+          <td width="70%" class="td_02"><input id="thred" name="thred" type="text" value="${parameter.get(1).v}"class="input" style="width:100% "></td>
         </tr>
         <tr>
           <td width="30%" class="td_02" style="font-size: 14px">X：</td>
-          <td width="70%" class="td_02"><input id="x" name="x" type="text"value="${parameter.get(2).value}" class="input" style="width:100% "></td>
+          <td width="70%" class="td_02"><input id="x" name="x" type="text"value="${parameter.get(2).v}" class="input" style="width:100% "></td>
         </tr>
         <tr>
           <td width="30%" class="td_02" style="font-size: 14px">Y：</td>
-          <td width="70%" class="td_02"><input id="y" name="y" type="text" value="${parameter.get(3).value}"class="input" style="width:100% "></td>
+          <td width="70%" class="td_02"><input id="y" name="y" type="text" value="${parameter.get(3).v}"class="input" style="width:100% "></td>
         </tr>
         <tr>
           <td width="30%" class="td_02" style="font-size: 14px">宽：</td>
-          <td width="70%" class="td_02"><input id="width" name="width" type="text"value="${parameter.get(4).value}" class="input" style="width:100% "></td>
+          <td width="70%" class="td_02"><input id="width" name="width" type="text"value="${parameter.get(4).v}" class="input" style="width:100% "></td>
         </tr>
         <tr>
           <td width="30%" class="td_02" style="font-size: 14px">高：</td>
-          <td width="70%" class="td_02"><input id="length" name="length" type="text" value="${parameter.get(5).value}"class="input" style="width:100% "></td>
+          <td width="70%" class="td_02"><input id="length" name="length" type="text" value="${parameter.get(5).v}"class="input" style="width:100% "></td>
         </tr>
         <tr>
           <td colspan="9" class="td_02" align="right">
-            <input id="save" type="submit" class="buttonface02" value="保存">
+            <input id="save" type="button" class="buttonface02" value="保存" onclick="add()">
           </td>
         </tr>
       </table>
-      </form>
     </div>
     <div class="my-box-right2">
-      <div id="word" style="margin-top: 30px;"><span style="color:green;font-size: 80px;">成功！</span></div>
-      <div id="message" style="margin-top: 30px"><img style="border: 2px #B3CFE8 solid;" src="../../img/success.jpg" width="600" height="300"  align="absmiddle"></div>
+      <div id="word" style="margin-top: 30px;"></div>
+      <div id="message" style="margin-top: 30px"></div>
     </div>
   </div>
 </center>
